@@ -1,0 +1,48 @@
+@import 'main.scss';
+header {
+   padding: 20px 60px; 
+   border-bottom: 1px solid #ECEDF2;
+    box-shadow: 0px 6px 15px 0px rgba(64, 79, 104, 0.05);
+    display: flex;
+    align-items: center;
+    .logo {
+        margin-right: 50px;
+    }
+    .links  {
+        display: flex;
+        align-items: center;
+        gap: 50px;
+        a{
+            color:  $violet;
+            font-size: 15px;
+            font-weight: 400;
+            line-height: 26px; 
+        }
+    }
+    .search {
+        margin-left: auto;
+        padding: 5px 20px;
+       margin-right: 10px;
+       button{
+        background: none;
+        border: none;
+       }
+    }
+    .lang {
+        .current{
+            border-radius: 50px;
+            display: flex;
+            padding: 15px 25px;
+            align-items: center;
+            gap: 14px;
+            background-color:lighten($violet,40);
+            cursor: pointer;
+            &:hover {
+                background-color:lighten($violet,50);  
+            }
+        }
+        .list {
+            display: none;
+        }
+    }
+}
