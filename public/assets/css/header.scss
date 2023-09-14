@@ -50,7 +50,7 @@ header {
         display: flex;
         align-items: center;
         justify-content: center;
-        background-color: lighten($yashil, 10);
+        background-color: rgba($yashil,0.1);
         padding: 12px 52px;
         border-radius: 60px;
         color: $yashil;
