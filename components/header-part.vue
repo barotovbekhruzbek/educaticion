@@ -33,9 +33,7 @@
       </li>
     </ul>
   </div>
- <div class="login">
-  <nuxt-link to="/">Kirish</nuxt-link>
- </div>
+  <nuxt-link to="/" class="login">Kirish</nuxt-link>
 </header>
 </template>
 
