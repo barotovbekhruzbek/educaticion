@@ -45,4 +45,19 @@ header {
             display: none;
         }
     }
+    .login {
+        margin-left: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: lighten($yashil, 30);
+        padding: 12px 52px;
+        border-radius: 60px;
+        color: $yashil;
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 26px; 
+        
+    }
 }
