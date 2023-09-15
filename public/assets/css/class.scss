@@ -1,0 +1,17 @@
+.d-flex {
+    display: flex;
+}
+.align-items-center {
+    align-items: center;
+}
+.justify-content-between {
+    justify-content: space-between;
+}
+.justify-content-center {
+    justify-content: center;
+}
+@for $i from 1 through 3 {
+    ul:nth-child(3n+ #{$i}) {
+        background:lighten($yashil,$i* 5%)
+    }
+}

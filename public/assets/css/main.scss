@@ -1,4 +1,5 @@
 @import '../css/vars.scss';
+@import '../css/class.scss';
 * {
     margin: 0;
     padding: 0;
@@ -23,4 +24,14 @@ button {
     max-width: 1293px;
     margin: 0 auto;
     width: 100%;
+}
+
+.btn {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    &.rounded {
+        padding: 21px 55px;
+
+}
 }
