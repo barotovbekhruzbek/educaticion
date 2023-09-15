@@ -1,0 +1,17 @@
+ .welcome {
+    height: calc(100vh - 220px);
+    display: flex;
+    flex-direction: column;
+   &__body {
+    position: relative;
+    flex: 1;
+    display: flex;
+    align-items: center;
+    img {
+        position: absolute;
+        right: 0;
+        bottom: 0;
+    }
+   }
+
+ }

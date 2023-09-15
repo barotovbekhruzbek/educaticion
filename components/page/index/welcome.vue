@@ -1,6 +1,7 @@
 <template>
   <div class="welcome">
-     <div class="container">
+ <div class="welcome__body">
+    <div class="container">
         <h1>Zamonaviy kasbni
 <span>EduCert</span> orqali egallang</h1>
 <p>O’z kasbini mutaxassislari tomonidan shakllantirilgan kurslarimiz orqali
@@ -15,15 +16,17 @@ o’zingizga mos bilim va salohiyatni qulay holatda o’rganing</p>
 </div>
      </div>
      <img src="../../../public/assets/img/main.png" alt="">
+ </div>
   </div>
+  <partners />
 </template>
 
-<script>
-export default {
+<script setup>
+import partners from './partners.vue'
 
-}
 </script>
 
 <style lang="scss">
+@import '../../../public/assets/css/vars.scss';
 @import '../../../public/assets/css/components/welcome.scss'
 </style>
