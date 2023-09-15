@@ -1,13 +1,10 @@
 <template>
-  <div>
-    <h1>Bosh sahifa</h1>
-  </div>
+<welcomeVue />
 </template>
 
-<script>
-export default {
+<script setup>
+import welcomeVue from "~/components/page/index/welcome.vue";
 
-}
 </script>
 
 <style>
