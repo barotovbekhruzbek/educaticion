@@ -30,8 +30,21 @@ button {
     display: flex;
     align-items: center;
     gap: 10px;
+    &.bordered {
+        background-color: transparent;
+        padding: 21px 55px;
+        border-radius: 100px;
+        border: 1px solid $dark_blue;
+        color: $dark_blue;
+        font-size: 16px;
+        font-weight: 500;
+    }
     &.rounded {
         padding: 21px 55px;
-
-}
+        background-color: $yashil;
+        color: #fff;
+        border-radius: 100px;
+        font-size: 16px;
+        font-weight: 500;
+    }
 }

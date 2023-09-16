@@ -6,7 +6,7 @@
 <span>EduCert</span> orqali egallang</h1>
 <p>O’z kasbini mutaxassislari tomonidan shakllantirilgan kurslarimiz orqali
 o’zingizga mos bilim va salohiyatni qulay holatda o’rganing</p>
-<div class="d-flex">
+<div class="d-flex gap-30">
     <nuxt-link to="/" class="btn rounded">
         Batafsil
     </nuxt-link>
