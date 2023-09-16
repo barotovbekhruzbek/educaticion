@@ -26,7 +26,7 @@ import partners from './partners.vue'
 
 </script>
 
-<style lang="scss">
+<style lang="scss" scoped>
 @import '../../../public/assets/css/vars.scss';
 @import '../../../public/assets/css/components/welcome.scss'
 </style>
