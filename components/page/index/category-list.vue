@@ -1,5 +1,8 @@
 <template>
-  
+  <div class="title">Trenddagi turkumlar</div>
+    <div class="category-list">
+        
+    </div>
 </template>
 
 <script>
