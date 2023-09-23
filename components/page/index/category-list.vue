@@ -1,6 +1,6 @@
 <template>
   <div class="title">Trenddagi turkumlar</div>
-    <div class="category-list">
+    <div class="category-list row">
         
     </div>
 </template>
@@ -11,6 +11,6 @@ export default {
 }
 </script>
 
-<style>
+<style lang="scss">
 
 </style>
