@@ -3,7 +3,7 @@
     <div class="title text-center">Trenddagi turkumlar</div>
    <div class="container">
     <div class="category-list row">
-        <div class="col-6" v-for="item of 8">
+        <div class="col-6" v-for="item of 8" :key="item.id">
           <div class="category-box">
             <div class="icon">
               <img src="@/assets/img/icon-catergory/icon1.png" alt="">
