@@ -2,7 +2,7 @@
    <div class="card">
     <NuxtLink to="/" class="card__img">
         <div class="card__badge top">TOP</div>
-        <img src="@/assets/img/cours-card/1.png" alt="">
+        <img src="#" alt="">
     </NuxtLink>
    </div>
 </template>
