@@ -22,6 +22,24 @@
         <div class="level">
             <div class="item">
                 <img src="../../public/assets/img/cours-card/document.svg" alt="">
+                16 dars
+            </div>
+            <div class="item">
+                <img src="../../public/assets/img/cours-card/wall-clock.svg" alt="">
+                +4 soat
+            </div>
+            <div class="item">
+                <img src="../../public/assets/img/cours-card/bar-chart.svg" alt="">
+                Boshlang`ich
+            </div>
+        </div>
+        <div class="bottom">
+            <div class="author">
+                <img src="../../public/assets/img/cours-card/author.png" alt="">
+                Sardor Komilov
+            </div>
+            <div class="price">
+                700 ming so`m
             </div>
         </div>
     </div>
