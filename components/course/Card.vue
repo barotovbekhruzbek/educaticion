@@ -20,7 +20,9 @@
             Zero dan Expertgacha Intensiv Python backend dasturlash
         </NuxtLink>
         <div class="level">
-            
+            <div class="item">
+                <img src="../../public/assets/img/cours-card/document.svg" alt="">
+            </div>
         </div>
     </div>
    </div>
