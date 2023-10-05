@@ -1,8 +1,7 @@
 <template>
   <div class="cards-list">
-    <div class="title text-center">
-         
-    </div>
+    <div class="title text-center">Eng mashhur kurslarimiz</div>
+    <p>10, 000+ soatga ega kurslarimiz</p>
   </div>
 </template>
 
