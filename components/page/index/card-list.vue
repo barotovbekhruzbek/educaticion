@@ -4,10 +4,10 @@
     <p class="text-center">10, 000+ soatga ega kurslarimiz</p>
     <Swiper
     :modules="[SwiperAutoplay, SwiperEffectCreative]"
-    :slides-per-view="3"
+    :slides-per-view="5"
     :space-between="35"
     :loop="true"
-    :effect="'creative'"
+
     :autoplay="{
       delay: 8000,
       disableOnInteraction: true,
@@ -23,16 +23,14 @@
     }"
   >
     <SwiperSlide v-for="slide in 10" :key="slide">
-      <strong>{{ slide }}</strong>
+      <Card />
     </SwiperSlide>
   </Swiper>
   </div>
 </template>
 
-<script>
-export default {
-
-}
+<script setup>
+import Card from '~/components/course/Card.vue';
 </script>
 
 <style lang="scss">
