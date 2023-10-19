@@ -36,8 +36,17 @@
         .rating {
             display: flex;
             align-items: center;
-            justify-content: space-between;
+            // justify-content: space-between;
             gap: 10px;
+            font-size: 14px;
+
+            .average {
+                color: #E59819;
+            }
+            .all{
+                font-size: 13px;
+
+            }
         }
     }
 }
