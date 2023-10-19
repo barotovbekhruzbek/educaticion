@@ -53,5 +53,6 @@ export default {
 </script>
 
 <style lang="scss">
-@import "../../public/assets/css/components/card.scss"
+@import url("../../public/assets/css/components/card.scss");
+
 </style>

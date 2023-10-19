@@ -34,5 +34,11 @@ import Card from '~/components/course/Card.vue';
 </script>
 
 <style lang="scss">
-
+.cards-list {
+    background: #EEF2F6;
+    padding: 120px 10px;
+    p {
+      padding-bottom: 60px;
+    }
+}
 </style>
