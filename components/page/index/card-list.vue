@@ -1,8 +1,9 @@
 <template>
-  <div class="cards-list">
+  <div class="cards__list">
     <div class="title text-center">Eng mashhur kurslarimiz</div>
     <p class="text-center">10, 000+ soatga ega kurslarimiz</p>
-    <Swiper
+ <div class="cards__slider">
+  <Swiper
     :modules="[SwiperAutoplay, SwiperEffectCreative]"
     :slides-per-view="5"
     :space-between="35"
@@ -26,6 +27,7 @@
       <Card />
     </SwiperSlide>
   </Swiper>
+ </div>
   </div>
 </template>
 
@@ -34,11 +36,20 @@ import Card from '~/components/course/Card.vue';
 </script>
 
 <style lang="scss">
-.cards-list {
+.cards {
+  &__list {
+ 
     background: #EEF2F6;
     padding: 120px 10px;
+    overflow: hidden;
     p {
       padding-bottom: 60px;
     }
-}
+   }
+   &__slider {
+    margin-left: -150px;
+    margin-right: -150px;
+   }
+  }
+
 </style>

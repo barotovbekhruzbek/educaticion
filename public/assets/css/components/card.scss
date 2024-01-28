@@ -48,5 +48,46 @@
 
             }
         }
+     
     }
 }
+.card__title {
+    padding-top: 14px;
+    display: flex;
+    font-size: 18px;
+    color: $blue;
+    
+    font-weight: 500px;
+    
+}
+.level {
+    padding: 15px 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #EDEDED;
+    .item {
+        display: flex;
+        align-items: center;
+
+    }
+}
+   .bottom {
+    padding-top: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    .author {
+        display: flex;
+        align-items: center;
+        gap: 7px;
+        img {
+            border-radius: 50%;
+        }
+    }
+    .price {
+        font-size: 18px;
+        color: $blue;
+        font-weight: 500;
+    }
+   }
