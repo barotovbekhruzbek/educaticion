@@ -28,6 +28,7 @@
     </SwiperSlide>
   </Swiper>
  </div>
+ <NuxtLink to="/" class="more">Barcha kurslarimiz <img src="../../../public/assets/img/icons/send.svg" alt=""> </NuxtLink>
   </div>
 </template>
 
@@ -50,6 +51,11 @@ import Card from '~/components/course/Card.vue';
     margin-left: -150px;
     margin-right: -150px;
    }
+  }
+  .more {
+    background: #033399;
+    padding: 10px;
+    margin:0 auto;
   }
 
 </style>
