@@ -28,7 +28,7 @@
     </SwiperSlide>
   </Swiper>
  </div>
- <NuxtLink to="/" class="more">Barcha kurslarimiz <img src="../../../public/assets/img/icons/send.svg" alt=""> </NuxtLink>
+ <NuxtLink to="/" class="more mt-50">Barcha kurslarimiz <img src="../../../public/assets/img/icons/send.svg" alt=""> </NuxtLink>
   </div>
 </template>
 
@@ -37,9 +37,11 @@ import Card from '~/components/course/Card.vue';
 </script>
 
 <style lang="scss">
+
 .cards {
   &__list {
- 
+    display: flex;
+    flex-direction: column;
     background: #EEF2F6;
     padding: 120px 10px;
     overflow: hidden;
@@ -53,9 +55,25 @@ import Card from '~/components/course/Card.vue';
    }
   }
   .more {
+
     background: #033399;
-    padding: 10px;
-    margin:0 auto;
+    display: flex;
+   justify-content: center;
+   align-items: center;
+   gap: 13px;
+   border-radius: 8px;
+   color: #fff;
+   font-size: 15px;
+   padding: 15px 29px;
+   
+   margin: 0 auto;
+   &:hover {
+    background: #E59819;
+    transition: 0.3s linear;
+   }
+  }
+  .mt-50 {
+    margin-top: 50px;
   }
 
 </style>
