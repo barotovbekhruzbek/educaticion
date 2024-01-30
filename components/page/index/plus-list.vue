@@ -10,6 +10,10 @@
               <div class="plusimg">
                 <img src="assets/img/plus-card1.svg" alt="">
               </div>
+              <div class="plustitle">
+                Mutaxassislar bilan o’rgan
+              </div>
+              <p>Barcha kurslarni o’z ishining mutaxassislari tomonidan olib boriladi</p>
             </div>
           </div>
         </div>
@@ -23,6 +27,6 @@ export default {
 }
 </script>
 
-<style>
-
+<style lang="scss">
+@import "../../../public/assets/css/components/pluslist.scss"
 </style>
