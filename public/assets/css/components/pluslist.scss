@@ -3,6 +3,26 @@
         padding: 120px 0px;
         text-align: center;
     }
+    &img{
+        width: 120px;
+        height: 120px;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        &.spec {
+            background-color: #EEF8F5;
+        }
+        &.place {
+            background-color: #FDF8EB;
+        }
+        &.learn {
+            background-color: #EFF9FE;
+        }
+        &.cert {
+            background-color: #FDF2EB;
+        }
+    }
     
 
 }
