@@ -7,7 +7,7 @@
         <div class="row">
           <div class="col-6">
             <div class="pluscard">
-              <div class="plusimg">
+              <div class="plusimg spec">
                 <img src="assets/img/plus-card1.svg" alt="">
               </div>
               <div class="plustitle">
