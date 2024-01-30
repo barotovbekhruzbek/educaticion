@@ -15,7 +15,7 @@ o’zingizga mos bilim va salohiyatni qulay holatda o’rganing</p>
     </nuxt-link>
 </div>
      </div>
-     <img src="assets/img/main.png" alt="">
+     <img src="../../../public/assets/img/main.png" alt="">
  </div>
   </div>
   <partners />
