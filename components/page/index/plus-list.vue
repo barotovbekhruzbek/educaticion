@@ -4,6 +4,15 @@
         <div class="title text-center"> 
             EduCert bilan zamonaviy kasbga ega bo’ing
         </div>
+        <div class="row">
+          <div class="col-6">
+            <div class="pluscard">
+              <div class="plusimg">
+                <img src="@/public/assets/img/plus-card1.svg" alt="">
+              </div>
+            </div>
+          </div>
+        </div>
     </div>
   </div>
 </template>
