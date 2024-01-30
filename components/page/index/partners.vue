@@ -5,8 +5,8 @@
     <img src="assets/img/icons/amd-logo-1-2.png" alt="">
     <img src="assets/img/icons/cisco-2-1-2.png" alt="">
     <img src="assets/img/icons/dropcam.png" alt="">
-    <img src="assets/img/icons/logitech-2-1-3-1.png" alt="">
-    <img src="assets/img/icons/Spotify-2-2.png" alt="">
+    <img src="assets/img/icons/logitech.png" alt="">
+    <img src="assets/img/icons/spotify.png" alt="">
    </div>
   </div>
 </template>
