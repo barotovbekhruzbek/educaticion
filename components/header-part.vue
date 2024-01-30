@@ -1,7 +1,7 @@
 <template>
 <header>
   <nuxt-link to="/" class="logo">
-    <img src="../public/assets/img/logo.svg" alt="">
+    <img src="assets/img/logo.svg" alt="">
   </nuxt-link>
   <div class="links">
     <nuxt-link to="/">Bosh sahifa</nuxt-link>
@@ -15,13 +15,13 @@
   </div>
   <div class="search">
     <button>
-      <img src="../public/assets/img/search-icon.svg" alt="">
+      <img src="assets/img/search-icon.svg" alt="">
     </button>
 
   </div>
   <div class="lang">
     <div class="current">
-      <img src="../public/assets/img/global-search.svg" alt="">
+      <img src="assets/img/global-search.svg" alt="">
       O`zbekcha
     </div>
     <ul class="list">

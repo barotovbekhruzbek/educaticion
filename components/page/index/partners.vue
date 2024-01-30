@@ -1,12 +1,12 @@
 <template>
   <div class="partners">
    <div class="container">
-    <img src="../../../public/assets/img/icons/amazon-4.png" alt="">
-    <img src="../../../public/assets/img/icons/amd-logo-1-2.png" alt="">
-    <img src="../../../public/assets/img/icons/cisco-2-1-2.png" alt="">
-    <img src="../../../public/assets/img/icons/dropcam.png" alt="">
-    <img src="../../../public/assets/img/icons/logitech-2-1-3-1.png" alt="">
-    <img src="../../../public/assets/img/icons/Spotify-2-2.png" alt="">
+    <img src="assets/img/icons/amazon-4.png" alt="">
+    <img src="assets/img/icons/amd-logo-1-2.png" alt="">
+    <img src="assets/img/icons/cisco-2-1-2.png" alt="">
+    <img src="assets/img/icons/dropcam.png" alt="">
+    <img src="assets/img/icons/logitech-2-1-3-1.png" alt="">
+    <img src="assets/img/icons/Spotify-2-2.png" alt="">
    </div>
   </div>
 </template>

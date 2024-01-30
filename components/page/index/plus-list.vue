@@ -8,7 +8,7 @@
           <div class="col-6">
             <div class="pluscard">
               <div class="plusimg">
-                <img src="@/public/assets/img/plus-card1.svg" alt="">
+                <img src="assets/img/plus-card1.svg" alt="">
               </div>
             </div>
           </div>
