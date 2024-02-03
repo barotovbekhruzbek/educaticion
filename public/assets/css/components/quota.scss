@@ -1,0 +1,51 @@
+.quota {
+  margin-top: 60px;
+  border-radius: 8px;
+  padding: 58px 51px;
+  background: #fff;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  color: #033399;
+  .img {
+    width: 120px;
+    height: 120px;
+
+    border-radius: 50%;
+    position: relative;
+    & > img {
+     border-radius: 50%;
+      overflow: hidden;
+      object-fit: contain;
+      object-position: center;
+      width: 120px;
+      height: 120px;
+    }
+    .quota-icon {
+      position: absolute;width: 40px;
+      height: 40px;
+      border-radius: 50%;
+      background: #EEF2F6;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+  }
+  .body {
+  width: calc(100% - 120px);
+    .text {
+      font-size: 16px;
+      line-height: 26px;
+      margin-bottom: 15px;
+    }
+    .name {
+      font-size: 15px;
+      margin-bottom: 5px;
+      font-weight: 700;
+    }
+    .company {
+      font-size: 13px;
+
+    }
+  }
+}
