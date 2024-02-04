@@ -6,7 +6,7 @@
         <div class="col-6" v-for="item of 8" :key="item.id">
           <div class="category-box">
             <div class="icon">
-              <img src="assets/img/icon-catergory/marketing1.png" alt="">
+              <img src="/assets/img/icon-catergory/marketing1.png" alt="">
             </div>
             <div class="category-body">
               <div class="category-title">Marketing</div>
