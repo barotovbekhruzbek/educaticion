@@ -37,13 +37,13 @@ import quota from "~/components/course/Quota.vue";
 
 </script>
 
-<style lang="scss">
+<style lang="scss" scoped>
 @import "../../../public/assets/css/vars.scss";
 .quotalist {
   background: $blue;
   text-align: center;
   color: #fff;
-  padding: 120px 0px;
+  padding: 120px 0;
   overflow: hidden;
   .title {
     color: #fff;

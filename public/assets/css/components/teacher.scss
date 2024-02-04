@@ -1,0 +1,13 @@
+.rating {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  font-size: 14px;
+
+  .average {
+    color: #E59819;
+  }
+
+}

@@ -2,17 +2,17 @@
    <div class="card">
     <NuxtLink to="/" class="card__img">
         <div class="badge top">TOP</div>
-        <img src="../../public/assets/img/cours-card/1.png" alt="">
+        <img src="/assets/img/cours-card/1.png" alt="">
     </NuxtLink>
     <div class="card__body">
         <div class="rating">
              <div class="avarage">4.5</div>
              <div class="stars">
-                <img src="../../public/assets/img/cours-card/stars.svg" alt="">
-                <img src="../../public/assets/img/cours-card/stars.svg" alt="">
-                <img src="../../public/assets/img/cours-card/stars.svg" alt="">
-                <img src="../../public/assets/img/cours-card/stars.svg" alt="">
-                <img src="../../public/assets/img/cours-card/stars.svg" alt="">
+                <img src="/assets/img/cours-card/stars.svg" alt="">
+                <img src="/assets/img/cours-card/stars.svg" alt="">
+                <img src="/assets/img/cours-card/stars.svg" alt="">
+                <img src="/assets/img/cours-card/stars.svg" alt="">
+                <img src="/assets/img/cours-card/stars.svg" alt="">
              </div>
              <div class="all">(1999)</div>
         </div>
@@ -21,21 +21,21 @@
         </NuxtLink>
         <div class="level">
             <div class="item">
-                <img src="../../public/assets/img/cours-card/document.svg" alt="">
+                <img src="/assets/img/cours-card/document.svg" alt="">
                 16 dars
             </div>
             <div class="item">
-                <img src="../../public/assets/img/cours-card/wall-clock.svg" alt="">
+                <img src="/assets/img/cours-card/wall-clock.svg" alt="">
                 +4 soat
             </div>
             <div class="item">
-                <img src="../../public/assets/img/cours-card/bar-chart.svg" alt="">
+                <img src="/assets/img/cours-card/bar-chart.svg" alt="">
                 Boshlang`ich
             </div>
         </div>
         <div class="bottom">
             <div class="author">
-                <img src="../../public/assets/img/cours-card/author.png" alt="">
+                <img src="/assets/img/cours-card/author.png" alt="">
                 Sardor Komilov
             </div>
             <div class="price">

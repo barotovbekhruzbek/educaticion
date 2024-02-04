@@ -51,5 +51,5 @@
 </script>
 
 <style lang="scss" scoped>
-@import "../../../public/assets/css/components/pluslist.scss"
+@import "../../../public/assets/css/components/pluslist.scss";
 </style>

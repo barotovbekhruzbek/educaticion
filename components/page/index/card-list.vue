@@ -36,7 +36,7 @@
 import Card from '~/components/course/Card.vue';
 </script>
 
-<style lang="scss">
+<style lang="scss" scoped>
 
 .cards {
   &__list {

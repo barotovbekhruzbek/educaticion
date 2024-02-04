@@ -15,7 +15,7 @@ o’zingizga mos bilim va salohiyatni qulay holatda o’rganing</p>
     </nuxt-link>
 </div>
      </div>
-     <img src="@/assets/img/main-photo.png" alt="">
+     <img src="/assets/img/main-photo.png" alt="">
  </div>
   </div>
   <partners />
@@ -28,5 +28,5 @@ import partners from './partners.vue'
 
 <style lang="scss" scoped>
 @import '../../../public/assets/css/vars.scss';
-@import '../../../public/assets/css/components/welcome.scss'
+@import '../../../public/assets/css/components/welcome.scss';
 </style>
